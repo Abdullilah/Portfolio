@@ -1,0 +1,183 @@
+*{
+box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Setup the main image as a background */
+.page-body{
+    background: url(../images/cover.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%; 
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Main Window */
+.main-window{
+    width: 70%;
+    height: 560px;
+    margin: 0 auto;
+    top: 50px;
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(101, 97, 117, 0.63), 0 6px 20px 0 rgba(169, 181, 206, 0.51);
+}
+
+/* Start nave bar on the left */
+.nav{
+    color: #FFF;
+    width: 25%;
+    height: 100%;
+    padding: 10px;
+    background-color: rgba(33, 34, 49, 0.7);
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.nav h2{
+    margin-bottom: 10px;
+}
+
+.nav li{
+    transition: all 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.nav li img{
+    width: 35px;
+    vertical-align: middle;
+    margin: 5px 10px 5px;
+    background-color: #a2a2a2;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.nav li a{
+    width: 100%;
+    display: block;
+    line-height: 40px;
+    color: #FFF;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+.nav-list li.active,
+.nav-list li:hover{
+    background-color: rgba(118, 121, 214, 0.5);
+    margin-left: 5px;
+}
+
+/* End nave bar on the left */
+
+/* Start main section on the right */
+.main-section{
+    padding: 10px;
+    width: 75%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    float: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    overflow-y: auto;
+}
+
+.main-section h1{
+    color: #c12d2d;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.main-section .section{
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    min-height: 80px;
+    border: 2px solid #987979;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 1s ease;
+}
+
+.main-section .section:hover{
+    box-shadow: 0 4px 8px 0 rgba(255, 0, 0, 0.5), 0 6px 20px 0 rgba(255, 0, 0, 0.5);
+}
+
+.main-section .personal-info .section > img{
+    border-radius: 50%;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.main-section .personal-info .info{
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.main-section .personal-info .info img{
+    width: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.main-section .personal-info .info li{
+    margin-bottom: 10px;
+}
+
+.main-section .technical-skills .section img,
+.main-section .work-experience .section img,
+.main-section .education .section img{
+    width: 60px;
+    float: left;
+    margin-right: 20px;
+    -webkit-animation: rotation 1.5s infinite alternate-reverse;
+}
+
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(7deg);
+    }
+    to {
+        -webkit-transform: rotate(-7deg);
+    }
+}
+
+.main-section .section .text{
+    color: #1c4367;
+    line-height: 28px;
+    margin-left: 80px;
+}
+    
+.main-section .work-experience .section .company,
+.main-section .education .section .company{
+    color: #F00;
+}
+
+.main-section .work-experience .section h2,
+.main-section .education .section h2{
+    display: inline-block;
+}
+
+.main-section .section .date{
+    color: #118c11;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.main-section .section .sub-title{
+    color: #22ad22;
+}
+
+/* End main section on the right */

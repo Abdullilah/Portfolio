@@ -1,0 +1,38 @@
+System.register(['angular2/core'], function(exports_1, context_1) {
+    "use strict";
+    var __moduleName = context_1 && context_1.id;
+    var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+        var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+        if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+        else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+        return c > 3 && r && Object.defineProperty(target, key, r), r;
+    };
+    var __metadata = (this && this.__metadata) || function (k, v) {
+        if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+    };
+    var core_1;
+    var WorkExperienceComponent;
+    return {
+        setters:[
+            function (core_1_1) {
+                core_1 = core_1_1;
+            }],
+        execute: function() {
+            WorkExperienceComponent = (function () {
+                function WorkExperienceComponent() {
+                }
+                WorkExperienceComponent = __decorate([
+                    core_1.Component({
+                        selector: 'work-experience-comp',
+                        template: "\n    <!-- Start the technical-skills section -->\n    <div class='work-experience'>\n      <h1>Work Experience</h1>\n      <div class=\"section\">\n        <img src=\"../src/images/icons/oracle.jpg\" alt=\"icon\">\n        <div class=\"text\">\n            <h2>Front-End developer</h2>\n            <span class=\"date\">10-2017 / 01-2018</span>\n            <h3 class='company'>Oracle Maxymiser</h3>\n            <p>HTML5, CSS3, JavaScript, jQuery, Angular, React</p>\n        </div>\n      </div>\n      <div class=\"section\">\n        <img src=\"../src/images/icons/online-shop.svg\" alt=\"icon\">\n        <div class=\"text\">\n            <h2>Front-End developer</h2>\n            <span class=\"date\">03-2016 / 10-2017</span>\n            <h3 class='company'>Freelancer</h3>\n            <p>HTML5, CSS3, JavaScript, jQuery, Bootstrap, Angular, React, PHP, SQL</p>\n        </div>\n      </div>\n      <div class=\"section\">\n        <img src=\"../src/images/icons/classroom.svg\" alt=\"icon\">\n        <div class=\"text\">\n            <h2>Teacher Front-end Developing</h2>\n            <span class=\"date\">03-2017 / 06-2017</span>\n            <h3 class='company'>Libyan school, Warsaw-Poland</h3>\n            <p>HTML5, CSS3, JavaScript</p>\n        </div>\n      </div>\n      <div class=\"section\">\n        <img src=\"../src/images/icons/Albaath-logo.png\" alt=\"icon\">\n        <div class=\"text\">\n            <h2>Teaching Associate Professional</h2>\n            <span class=\"date\">09-2014 / 10-2015</span>\n            <h3 class='company'>Al-Baath University, Homs-Syria</h3>\n            <p>JavaScript, Matlab, C++, Supervising graduation projects</p>\n        </div>\n      </div>\n      <div class=\"section\">\n        <img src=\"../src/images/icons/pharmacy.svg\" alt=\"icon\">\n        <div class=\"text\">\n            <h2>First Aid Volunteer</h2>\n            <span class=\"date\">01-2014 / 10-2015</span>\n            <h3 class='company'>Syrian Arab Red Crescent (SARC)</h3>\n            <p>First Aid Volunteer and Telecommunication Maintains Team</p>\n        </div>\n      </div>\n    <!-- End the work-experience section -->\n    ",
+                    }), 
+                    __metadata('design:paramtypes', [])
+                ], WorkExperienceComponent);
+                return WorkExperienceComponent;
+            }());
+            exports_1("WorkExperienceComponent", WorkExperienceComponent);
+        }
+    }
+});
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndvcmsuZXhwZXJpZW5jZS5jb21wb25lbnQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7WUF5REE7Z0JBQUE7Z0JBQ0EsQ0FBQztnQkF4REQ7b0JBQUMsZ0JBQVMsQ0FBQzt3QkFDVCxRQUFRLEVBQUUsc0JBQXNCO3dCQUNoQyxRQUFRLEVBQUUsd25FQWtEUDtxQkFFSixDQUFDOzsyQ0FBQTtnQkFFRiw4QkFBQztZQUFELENBREEsQUFDQyxJQUFBO1lBREQsNkRBQ0MsQ0FBQSIsImZpbGUiOiJ3b3JrLmV4cGVyaWVuY2UuY29tcG9uZW50LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtDb21wb25lbnR9IGZyb20gJ2FuZ3VsYXIyL2NvcmUnO1xyXG5cclxuQENvbXBvbmVudCh7XHJcbiAgc2VsZWN0b3I6ICd3b3JrLWV4cGVyaWVuY2UtY29tcCcsXHJcbiAgdGVtcGxhdGU6IGBcclxuICAgIDwhLS0gU3RhcnQgdGhlIHRlY2huaWNhbC1za2lsbHMgc2VjdGlvbiAtLT5cclxuICAgIDxkaXYgY2xhc3M9J3dvcmstZXhwZXJpZW5jZSc+XHJcbiAgICAgIDxoMT5Xb3JrIEV4cGVyaWVuY2U8L2gxPlxyXG4gICAgICA8ZGl2IGNsYXNzPVwic2VjdGlvblwiPlxyXG4gICAgICAgIDxpbWcgc3JjPVwiLi4vc3JjL2ltYWdlcy9pY29ucy9vcmFjbGUuanBnXCIgYWx0PVwiaWNvblwiPlxyXG4gICAgICAgIDxkaXYgY2xhc3M9XCJ0ZXh0XCI+XHJcbiAgICAgICAgICAgIDxoMj5Gcm9udC1FbmQgZGV2ZWxvcGVyPC9oMj5cclxuICAgICAgICAgICAgPHNwYW4gY2xhc3M9XCJkYXRlXCI+MTAtMjAxNyAvIDAxLTIwMTg8L3NwYW4+XHJcbiAgICAgICAgICAgIDxoMyBjbGFzcz0nY29tcGFueSc+T3JhY2xlIE1heHltaXNlcjwvaDM+XHJcbiAgICAgICAgICAgIDxwPkhUTUw1LCBDU1MzLCBKYXZhU2NyaXB0LCBqUXVlcnksIEFuZ3VsYXIsIFJlYWN0PC9wPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICA8L2Rpdj5cclxuICAgICAgPGRpdiBjbGFzcz1cInNlY3Rpb25cIj5cclxuICAgICAgICA8aW1nIHNyYz1cIi4uL3NyYy9pbWFnZXMvaWNvbnMvb25saW5lLXNob3Auc3ZnXCIgYWx0PVwiaWNvblwiPlxyXG4gICAgICAgIDxkaXYgY2xhc3M9XCJ0ZXh0XCI+XHJcbiAgICAgICAgICAgIDxoMj5Gcm9udC1FbmQgZGV2ZWxvcGVyPC9oMj5cclxuICAgICAgICAgICAgPHNwYW4gY2xhc3M9XCJkYXRlXCI+MDMtMjAxNiAvIDEwLTIwMTc8L3NwYW4+XHJcbiAgICAgICAgICAgIDxoMyBjbGFzcz0nY29tcGFueSc+RnJlZWxhbmNlcjwvaDM+XHJcbiAgICAgICAgICAgIDxwPkhUTUw1LCBDU1MzLCBKYXZhU2NyaXB0LCBqUXVlcnksIEJvb3RzdHJhcCwgQW5ndWxhciwgUmVhY3QsIFBIUCwgU1FMPC9wPlxyXG4gICAgICAgIDwvZGl2PlxyXG4gICAgICA8L2Rpdj5cclxuICAgICAgPGRpdiBjbGFzcz1cInNlY3Rpb25cIj5cclxuICAgICAgICA8aW1nIHNyYz1cIi4uL3NyYy9pbWFnZXMvaWNvbnMvY2xhc3Nyb29tLnN2Z1wiIGFsdD1cImljb25cIj5cclxuICAgICAgICA8ZGl2IGNsYXNzPVwidGV4dFwiPlxyXG4gICAgICAgICAgICA8aDI+VGVhY2hlciBGcm9udC1lbmQgRGV2ZWxvcGluZzwvaDI+XHJcbiAgICAgICAgICAgIDxzcGFuIGNsYXNzPVwiZGF0ZVwiPjAzLTIwMTcgLyAwNi0yMDE3PC9zcGFuPlxyXG4gICAgICAgICAgICA8aDMgY2xhc3M9J2NvbXBhbnknPkxpYnlhbiBzY2hvb2wsIFdhcnNhdy1Qb2xhbmQ8L2gzPlxyXG4gICAgICAgICAgICA8cD5IVE1MNSwgQ1NTMywgSmF2YVNjcmlwdDwvcD5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICAgPC9kaXY+XHJcbiAgICAgIDxkaXYgY2xhc3M9XCJzZWN0aW9uXCI+XHJcbiAgICAgICAgPGltZyBzcmM9XCIuLi9zcmMvaW1hZ2VzL2ljb25zL0FsYmFhdGgtbG9nby5wbmdcIiBhbHQ9XCJpY29uXCI+XHJcbiAgICAgICAgPGRpdiBjbGFzcz1cInRleHRcIj5cclxuICAgICAgICAgICAgPGgyPlRlYWNoaW5nIEFzc29jaWF0ZSBQcm9mZXNzaW9uYWw8L2gyPlxyXG4gICAgICAgICAgICA8c3BhbiBjbGFzcz1cImRhdGVcIj4wOS0yMDE0IC8gMTAtMjAxNTwvc3Bhbj5cclxuICAgICAgICAgICAgPGgzIGNsYXNzPSdjb21wYW55Jz5BbC1CYWF0aCBVbml2ZXJzaXR5LCBIb21zLVN5cmlhPC9oMz5cclxuICAgICAgICAgICAgPHA+SmF2YVNjcmlwdCwgTWF0bGFiLCBDKyssIFN1cGVydmlzaW5nIGdyYWR1YXRpb24gcHJvamVjdHM8L3A+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgICA8ZGl2IGNsYXNzPVwic2VjdGlvblwiPlxyXG4gICAgICAgIDxpbWcgc3JjPVwiLi4vc3JjL2ltYWdlcy9pY29ucy9waGFybWFjeS5zdmdcIiBhbHQ9XCJpY29uXCI+XHJcbiAgICAgICAgPGRpdiBjbGFzcz1cInRleHRcIj5cclxuICAgICAgICAgICAgPGgyPkZpcnN0IEFpZCBWb2x1bnRlZXI8L2gyPlxyXG4gICAgICAgICAgICA8c3BhbiBjbGFzcz1cImRhdGVcIj4wMS0yMDE0IC8gMTAtMjAxNTwvc3Bhbj5cclxuICAgICAgICAgICAgPGgzIGNsYXNzPSdjb21wYW55Jz5TeXJpYW4gQXJhYiBSZWQgQ3Jlc2NlbnQgKFNBUkMpPC9oMz5cclxuICAgICAgICAgICAgPHA+Rmlyc3QgQWlkIFZvbHVudGVlciBhbmQgVGVsZWNvbW11bmljYXRpb24gTWFpbnRhaW5zIFRlYW08L3A+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICAgIDwvZGl2PlxyXG4gICAgPCEtLSBFbmQgdGhlIHdvcmstZXhwZXJpZW5jZSBzZWN0aW9uIC0tPlxyXG4gICAgYCxcclxuXHJcbn0pXHJcbmV4cG9ydCBjbGFzcyBXb3JrRXhwZXJpZW5jZUNvbXBvbmVudCB7XHJcbn1cclxuIl19
